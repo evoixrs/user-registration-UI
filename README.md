@@ -3,8 +3,14 @@ Python tests
 
 # В работе
 
-# API+-
-## test
-## logs
+# API+
+## test +
+## logs +
 
-# UI-   
+# UI-
+locators
+conftest
+test
+logs
+
+# TMS+-
