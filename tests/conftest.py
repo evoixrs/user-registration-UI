@@ -7,7 +7,7 @@ from api_client.models.register import RegisterModel
 logger = logging.getLogger("api_tests")
 
 def pytest_addoption(parser):
-     parser.addoption("--api-url", action="store", default="http://158.160.87.146:5000",
+     parser.addoption("--api-url", action="store", default="http://127.0.0.1:5000/",
                       help="foo: bar or baz")
 
 @pytest.fixture(scope="session")
